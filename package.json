@@ -1,0 +1,28 @@
+{
+  "name": "freecurrency-api-node",
+  "description": "Basic library for freecurrencyapi.com",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/Lamerat/Freecurrency-API-Node",
+  "repository": "git://github.com/Lamerat/Freecurrency-API-Node.git",
+  "author": "Simeon Mladenov",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "currency"
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
