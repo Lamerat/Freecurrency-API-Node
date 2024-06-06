@@ -11,7 +11,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "test": "mocha"
   },
   "keywords": [
     "currency"
@@ -20,8 +21,14 @@
     "dist/**/*"
   ],
   "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/dotenv": "^8.2.0",
+    "@types/mocha": "^10.0.6",
     "@typescript-eslint/eslint-plugin": "^7.12.0",
     "@typescript-eslint/parser": "^7.12.0",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }

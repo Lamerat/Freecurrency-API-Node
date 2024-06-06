@@ -88,7 +88,16 @@ export default class CurrencyApi {
 
 
   private CError(code: number, result: any): void {
-    console.log({ code, ...result });
-    throw new Error(result?.message || 'Free currency api unknow error');
+    throw new CError(code, result?.message || 'Free currency api unknow error');
+  }
+}
+
+
+class CError extends Error {
+  private code: number;
+
+  constructor (code: number, ...params: any) {
+    super(...params);
+    this.code = code;
   }
 }
