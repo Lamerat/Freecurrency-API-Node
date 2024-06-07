@@ -1,7 +1,7 @@
 {
   "name": "freecurrency-api-node",
   "description": "Basic library for freecurrencyapi.com",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/Lamerat/Freecurrency-API-Node",
