@@ -68,4 +68,4 @@ currencies.historical('2022-10-10', 'BGN', ['RUB', 'CAD'])
 
 ### License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information
+The MIT License (MIT). Please see [License File](LICENSE) for more information
